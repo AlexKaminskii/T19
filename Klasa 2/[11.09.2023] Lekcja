@@ -1,0 +1,152 @@
+//Euklides odejmowanie
+
+using System;
+using System.IO.Compression;
+using System.Threading.Channels;
+
+// int eukodej(int x, int y)
+// {
+//     while (x!=y)
+//     {
+//         if(x>y)
+//             x-=y;
+//         else
+//             y-=x;
+//     }
+//
+//     return x;
+// }
+//
+// int a, b;
+// a = int.Parse(Console.ReadLine());
+// b = int.Parse(Console.ReadLine());
+// Console.WriteLine(eukodej(a,b));
+
+
+
+
+
+
+// int eukmod(int x, int y)
+// {
+//     int temp;
+//     while (y>0)
+//     {
+//         temp = y;
+//         y = x%y;
+//         x = temp;
+//     }
+//
+//     return x;
+// }
+//
+//
+// int a, b;
+// a = int.Parse(Console.ReadLine());
+// b = int.Parse(Console.ReadLine());
+// Console.WriteLine(eukmod(a,b));
+
+
+
+
+
+//Buble Sort
+
+// int[] SortArray(int[] array)
+// {
+//     int length = array.Length;
+//
+//     int temp = array[0];
+//
+//     for (int i = 0; i < length; i++)
+//     {
+//         for (int j = i+1; j < length; j++)
+//         {
+//             if (array[i] > array[j])
+//             {
+//                 temp = array[i];
+//
+//                 array[i] = array[j];
+//
+//                 array[j] = temp;
+//             }
+//         }
+//     }
+//
+//     return array;        
+// }
+//
+// int[] arr = { 800, 11, 50, 771, 649, 770, 240, 9 };
+// SortArray(arr);
+// for (int i = 0; i < arr.Length; i++)
+// {
+//     Console.WriteLine(arr[i]);
+//     
+// }
+
+//Liczby zaprzyjaźnione
+
+
+
+//
+// bool przyj(int a, int b)
+// {
+//     int suma_a = 0;
+//     int suma_b = 0;
+//     
+//     
+//     for (int i = 1; i < a; i++)
+//     {
+//         if (a%i==0)
+//         {
+//             suma_a += i;
+//         }
+//     }
+//
+//
+//     for (int i = 1; i < b; i++)
+//     {
+//         if(b%i==0)
+//         {
+//             suma_b += i;
+//         }
+//     }
+//
+//     if (suma_a == b && suma_b == a)
+//     {
+//         return true;
+//     }
+//
+//     return false;
+// }
+//
+//
+// int a, b;
+// a = int.Parse(Console.ReadLine());
+// b = int.Parse(Console.ReadLine());
+// Console.WriteLine(przyj(a, b));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
