@@ -1,6 +1,7 @@
 //Euklides odejmowanie
 
 using System;
+using System.Collections;
 using System.IO.Compression;
 using System.Threading.Channels;
 
@@ -127,23 +128,31 @@ using System.Threading.Channels;
 // Console.WriteLine(przyj(a, b));
 
 
+// Random r = new();
+// ArrayList array = new();
+// for (int i = 0; i < 30; i++)
+// {
+//     array.Add(r.Next(100, 1000));
+// }
+//
+// var wielokrotnosci = new List<int>();
+// for (int i = 0; i < 30; i++)
+// {
+//     if ((int)array[i] % 17 == 0)
+//     {
+//         wielokrotnosci.Add((int)array[i]);
+//     }
+// }
+//
+//
+//
+// for (int i = 0; i < wielokrotnosci.Count; i++)
+// {
+//     Console.WriteLine(wielokrotnosci[i]);
+// }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Macierz - sumy ramek macierzy kwadratowej o n parzystym
 
 
 
